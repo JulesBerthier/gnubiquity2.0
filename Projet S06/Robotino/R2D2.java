@@ -15,7 +15,7 @@ public class R2D2 implements Runnable
     protected final OmniDrive omniDrive;
     protected final Bumper bumper;
 
-    };
+   
 
     public R2D2(String hostname)
     {
@@ -115,7 +115,7 @@ public class R2D2 implements Runnable
             com.waitForUpdate();
         }
     }
-	protected void tourner() throws InterruptedException: //@Adrian:A completer!!!!!
+	protected void tourner() throws InterruptedException:{ //@Adrian:A completer!!!!!
 														//@Adrian:A completer!!!!!
 	}													//@Adrian:A completer!!!!!
 	protected void avAr()throws InterruptedException{	//@Adrian:A completer!!!!!
@@ -140,7 +140,5 @@ public class R2D2 implements Runnable
         out[1] = (float) (sin(rad) * in[0] + cos(rad) * in[1]);
         return out;
     }
-
-}
 
 }
