@@ -1,0 +1,12 @@
+// port of the c++ example
+// without callbacks, as java does not support them directly
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        String hostname = System.getProperty("hostname", "172.26.1.1");
+
+        new Robot(hostname).run();
+    }	
+}

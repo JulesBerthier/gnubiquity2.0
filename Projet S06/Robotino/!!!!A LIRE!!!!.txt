@@ -1,0 +1,8 @@
+04/04/2017-14h34 @Adrian :
+Donc j'ai mis sur le drive le main + la classe Robot de l'exemple.
+Nous allons procéder de la maniére suivante:
+-Nous créons 2 classes :R2D2(je l'ajoute au drive et a guithub et DarkVador(le second robotino on verra plus tard pour lui);
+-Il ne faut pas toucher à la methode run() elle nous servira à lancer la séquence ( à la place de drive() dans la méthode run() et dans le try{} on mettra la suite d'instruction)
+-Important je vous ai mis un fichier avec un lien c'est la doc de la librairie propre a robotino si vous en trouvez d'autres rajoutez les :)
+
+ 
